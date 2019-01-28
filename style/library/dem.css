@@ -1,0 +1,45 @@
+@import url('normalize.css');
+
+/* General Demo Style */
+
+
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover{
+	background: #777;
+	border-color: rgba(0,0,0,0.01);
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    box-shadow:  
+    	1px 1px 0 rgba(255,255,255,0.3), 
+    	inset 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
